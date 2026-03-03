@@ -561,7 +561,7 @@ function openActiveRow() {
   }
   if (activeKind === 'links') {
     const item = linksData[activeIndex];
-    if (item && item.url) {
+    if (item && item.url) { 
       openUrl(item.url);
       return true;
     }
