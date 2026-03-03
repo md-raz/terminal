@@ -89,7 +89,7 @@
     },
     {
       "label": "contact-email",
-      "url": "mailto:md.raz@nyu.edu",
+      "url": "mailto://md.raz@nyu.edu",
       "description": "md.raz@nyu.edu",
       "group": "contact"
     }
