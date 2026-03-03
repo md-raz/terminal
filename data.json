@@ -16,7 +16,8 @@
     "about": [
       "Adaptive and hands-on electrical engineer focused on building impactful systems from concept to prototype.",
       "Experienced in schematic and PCB design, embedded firmware, FPGA/HDL development, and mixed-signal systems.",
-      "Research spans cyber-physical security, trustworthy hardware, and digital manufacturing methods for circuits and materials."
+      "Research spans cyber-physical security, trustworthy hardware, and digital manufacturing methods for circuits and materials.",
+      "- Contact me at md.raz@nyu.edu -"
     ]
   },
   "projects": [
@@ -89,7 +90,7 @@
     },
     {
       "label": "contact-email",
-      "url": "mailto://md.raz@nyu.edu",
+      "url": "mailto:md.raz@nyu.edu",
       "description": "md.raz@nyu.edu",
       "group": "contact"
     }
