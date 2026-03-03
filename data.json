@@ -1,0 +1,97 @@
+{
+  "profile": {
+    "name": "Md Raz",
+    "title": "Ph.D. Candidate at NYU",
+    "role": "Graduate Research Assistant",
+    "affiliation": "New York University, Tandon School of Engineering",
+    "location": "New York, NY, United States",
+    "researchFocus": "Cyber-physical Systems, Trustworthy HW, Low-level HW Design",
+    "interests": [
+      "Hardware Security",
+      "Cybersecurity",
+      "Embedded Systems",
+      "FPGAs",
+      "AI/ML"
+    ],
+    "about": [
+      "Adaptive and hands-on electrical engineer focused on building impactful systems from concept to prototype.",
+      "Experienced in schematic and PCB design, embedded firmware, FPGA/HDL development, and mixed-signal systems.",
+      "Research spans cyber-physical security, trustworthy hardware, and digital manufacturing methods for circuits and materials."
+    ]
+  },
+  "projects": [
+    {
+      "name": "FEINT Framework",
+      "description": "Automated framework for insertion of templates and Trojans into FPGA/ASIC RTL targets for attack and defense workflows.",
+      "url": "https://doi.org/10.3390/info15070395",
+      "tags": ["hardware security", "fpga", "rtl"],
+      "status": "active"
+    },
+    {
+      "name": "OffRAMPS",
+      "description": "FPGA-based intermediary for observing and modifying additive manufacturing control signals for attack characterization and defense.",
+      "url": "https://doi.org/10.1109/DSN58291.2024.00057",
+      "tags": ["fpga", "cyber-physical", "additive manufacturing"],
+      "status": "stable"
+    },
+    {
+      "name": "Ransomware 3.0",
+      "description": "Research on self-composing and LLM-orchestrated ransomware behavior and mitigation pathways.",
+      "url": "https://arxiv.org/abs/2508.20444",
+      "tags": ["ransomware", "ai", "security"],
+      "status": "lab"
+    }
+  ],
+  "research": [
+    {
+      "title": "SHIELD: Secure Host-Independent Extensible Logging for Tamper-Proof Detection and Real-Time Mitigation of Ransomware Threats",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2501.16619",
+      "tags": ["ransomware", "logging"]
+    },
+    {
+      "title": "Ransomware 3.0: Self-Composing and LLM-Orchestrated",
+      "year": "2025",
+      "url": "https://arxiv.org/abs/2508.20444",
+      "tags": ["llm", "malware"]
+    },
+    {
+      "title": "Offramps: An FPGA-Based Intermediary for Analysis and Modification of Additive Manufacturing Control Systems",
+      "year": "2024",
+      "url": "https://doi.org/10.1109/DSN58291.2024.00057",
+      "tags": ["fpga", "manufacturing"]
+    },
+    {
+      "title": "FEINT: automated framework for efficient insertion of templates/Trojans into FPGAs",
+      "year": "2024",
+      "url": "https://doi.org/10.3390/info15070395",
+      "tags": ["automation", "hardware"]
+    }
+  ],
+  "links": [
+    {
+      "label": "github",
+      "url": "https://github.com/md-raz",
+      "description": "Code, research projects, and prototypes",
+      "group": "social"
+    },
+    {
+      "label": "linkedin",
+      "url": "https://linkedin.com/in/md-raz",
+      "description": "Professional profile",
+      "group": "social"
+    },
+    {
+      "label": "google-scholar",
+      "url": "https://scholar.google.com/citations?user=dRjsGB8AAAAJ",
+      "description": "Publication index",
+      "group": "research"
+    },
+    {
+      "label": "contact-email",
+      "url": "mailto:md.raz@nyu.edu",
+      "description": "md.raz@nyu.edu",
+      "group": "contact"
+    }
+  ]
+}

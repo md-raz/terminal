@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terminal</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="terminal" id="terminal-shell" role="application" aria-label="Interactive terminal portfolio">
+    <div class="title-bar">
+      <div class="title-dots">
+        <span class="dot dot-close"></span>
+        <span class="dot dot-min"></span>
+        <span class="dot dot-max"></span>
+      </div>
+      <span class="title-text">mdraz@portfolio:~</span>
+      <span class="clock" id="clock">00:00:00</span>
+    </div>
+
+    <div class="terminal-output" id="terminal-output" aria-live="polite"></div>
+
+    <div class="input-row">
+      <span class="prompt-char">$&gt;</span>
+      <input
+        type="text"
+        id="console-input"
+        spellcheck="false"
+        autocomplete="off"
+        aria-label="Terminal command input"
+      >
+    </div>
+  </div>
+  <div class="sr-only" id="sr-status" aria-live="polite"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
