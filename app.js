@@ -268,7 +268,7 @@ function showHome() {
     ...buildNeofetchLines(),
     ...buildAboutLines(),
     termLine(''),
-    termLine('$ ls -lt ./', 'prompt'),
+    termLine('$ tree ./', 'prompt'),
     termLine(''),
     buildMenuItem('├── ', 'research'),
     buildMenuItem('└── ', 'links'),
